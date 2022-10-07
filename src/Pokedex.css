@@ -1,0 +1,35 @@
+.Pokedex{
+    text-align: center;
+    font-size: large;
+    border-radius: 10px;
+    padding: 5px 0px 20px;
+    margin: 25px; 
+    background-color: rgb(105, 185, 254);
+}
+
+.Pokedex-headers{
+    display: flex;
+    justify-content: space-evenly; 
+    font-weight: 600;
+}
+
+.Pokedex-headers p {
+    border: 3px solid;
+    border-radius: 10px;
+    padding: 5px 15px;
+    background-color: aliceblue;
+}
+
+.Pokedex-cards{
+    display: flex;
+    justify-content: space-evenly; 
+    flex-wrap: wrap;
+}
+
+p.isWinner{
+    background-color: #abffba;
+}
+
+p.isLoser{
+    background-color: #ffb19e;
+}
