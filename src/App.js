@@ -6,9 +6,9 @@ function App() {
     <div className="App">
       <h1>Pokegame</h1>
       <Pokegame/>
-      <footer>
+      {/* <footer>
         <code> Made with 💓 by Priyanshu Das</code>
-      </footer>
+      </footer> */}
     </div>
   );
 }

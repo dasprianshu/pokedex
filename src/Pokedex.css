@@ -7,6 +7,15 @@
     background-color: rgb(105, 185, 254);
 }
 
+.Pokedex-headers #hand{
+    font-size: 1.2rem;
+    font-style: italic;
+    border: 3px solid;
+    border-radius: 20px;
+    padding: 5px 30px;
+    background-color: rgb(184, 216, 243);
+}
+
 .Pokedex-headers{
     display: flex;
     justify-content: space-evenly; 
@@ -15,7 +24,7 @@
 
 .Pokedex-headers p {
     border: 3px solid;
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 5px 15px;
     background-color: aliceblue;
 }

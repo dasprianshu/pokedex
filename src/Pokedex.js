@@ -8,9 +8,10 @@ class Pokedex extends Component {
         return (
             <div className='Pokedex'>
 
-                <h1>{this.props.name}</h1>
+                {/* <h1>{this.props.name}</h1> */}
 
                 <div className='Pokedex-headers'>
+                    <p id='hand'>{this.props.name}</p>
                     <p>Total Experience : {this.props.total}</p>
                     {(this.props.iswinner) ? (<p className='isWinner'>WINNER!!!</p>) : (<p className='isLoser'>LOSER!</p>)}
                 </div>
